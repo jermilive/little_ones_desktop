@@ -1,0 +1,333 @@
+body {
+    background: cornflowerblue;
+    font-family:"Comic", sans, ms;
+    color: lightgrey;
+/*    padding: 30px; */
+}
+
+h2 {
+    text-align: center;
+    color: lightgrey;
+    margin-top: 30%;
+    
+}
+
+h1 {
+    text-align: center;
+    color: seagreen;
+    margin-top: 10px;
+    margin-bottom: 55px;
+    font-size: 47px;
+}
+
+.question1 {
+    text-align: center;
+    color: lightgrey;
+}
+
+.circleblue {
+    
+/*    width:100px; */
+    height:100px;
+    border-radius:50%;
+    background:blue;
+    border:1px solid black;
+    padding:20px;
+    margin: 20px 20px 75px 20px;
+    
+}
+
+.circlegreen {
+/*    width:100px; */
+    height:100px;
+    border-radius:50%;
+    background:green;
+    border:1px solid black;
+    padding:20px;
+    margin: 20px 20px 75px 20px;
+    
+}
+
+.circlered {
+ /*   width:100px; */
+    height:100px;
+    border-radius:50%;
+    background:red;
+    border:1px solid black;
+    padding:20px;
+    margin: 20px 20px 75px 20px;
+    
+}
+.circleyellow {
+/*    width:100px; */
+    height: 100px;
+    border-radius:50%;
+    background:yellow;
+    border:1px solid black;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    
+}
+
+/* home button to go back to start page */
+.homebtn {
+    background-color: red;
+/*    color: White; */
+/*    padding: 16px; */
+    border-radius: 8px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-left: 75%;
+/*    margin-right: 50%; */
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: seagreen;
+/*    color: White; */
+/*    padding: 16px; */
+    border-radius: 12px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin-left: 75%;
+/*    margin-right: 50%; */
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 45px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-shapes {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    right: 50%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-extras {
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+    left: 50%;
+    right: 50%;
+}
+
+
+
+
+
+
+
+/* Dropdown content (hidden by Default) */
+.dropdown-content {
+    border-radius: 6px;
+    display: none;
+    position: absolute;
+    background-color: lightskyblue;
+    min-width: 160px;
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+   
+    
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: darkseagreen;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.title-color {
+   
+    background-color: lightskyblue;
+    border-radius: 18px;
+    margin-top: 15px;
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#background-wrap {
+    bottom: 0;
+	left: 0;
+	padding-top: 50px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: -1;
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@-moz-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+	-webkit-animation: animateCloud 35s linear infinite;
+	-moz-animation: animateCloud 35s linear infinite;
+	animation: animateCloud 35s linear infinite;
+	
+	-webkit-transform: scale(0.65);
+	-moz-transform: scale(0.65);
+	transform: scale(0.65);
+}
+
+.x2 {
+	-webkit-animation: animateCloud 20s linear infinite;
+	-moz-animation: animateCloud 20s linear infinite;
+	animation: animateCloud 20s linear infinite;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+.x3 {
+	-webkit-animation: animateCloud 30s linear infinite;
+	-moz-animation: animateCloud 30s linear infinite;
+	animation: animateCloud 30s linear infinite;
+	
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+}
+
+.x4 {
+	-webkit-animation: animateCloud 18s linear infinite;
+	-moz-animation: animateCloud 18s linear infinite;
+	animation: animateCloud 18s linear infinite;
+	
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+.x5 {
+	-webkit-animation: animateCloud 25s linear infinite;
+	-moz-animation: animateCloud 25s linear infinite;
+	animation: animateCloud 25s linear infinite;
+	
+	-webkit-transform: scale(0.55);
+	-moz-transform: scale(0.55);
+	transform: scale(0.55);
+}
+
+/* OBJECTS */
+
+.cloud {
+	background: #fff;
+	background: -moz-linear-gradient(top,  #fff 5%, #f1f1f1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#fff), color-stop(100%,#f1f1f1));
+	background: -webkit-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: -o-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: -ms-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f1f1f1',GradientType=0 );
+	
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	
+	-webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+
+	height: 120px;
+	position: relative;
+	width: 350px;
+}
+
+.cloud:after, .cloud:before {
+    background: #fff;
+	content: '';
+	position: absolute;
+	z-indeX: -1;
+}
+
+.cloud:after {
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+
+	height: 100px;
+	left: 50px;
+	top: -50px;
+	width: 100px;
+}
+
+.cloud:before {
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	border-radius: 200px;
+
+	width: 180px;
+	height: 180px;
+	right: 50px;
+	top: -90px;
+}
+
+
+
+
+
+

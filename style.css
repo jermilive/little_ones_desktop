@@ -1,0 +1,120 @@
+/* Font is Comic Neue!!! */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+body {
+  background-color: lightskyblue;
+  font-family: "Comic Neue", cursive;
+}
+
+.title {
+  position: inherit;
+  background-color: lightgreen;
+  color: white;
+  font-size: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5rem;
+}
+.title:hover {
+  transition: transform 2.6s;
+  transform-style: preserve-3d;
+  transform: rotateX(900deg);
+}
+
+.game-card-front {
+  position: relative;
+  color: white;
+  margin-top: 50%;
+  margin-bottom: auto;
+}
+
+span {
+  width: 300px;
+  height: 300px;
+}
+
+/* .title-color {
+  background-color: pink;
+  color: white;
+  transform: rotateX(180deg);
+}  */
+
+p {
+  font-size: 4em;
+  color: white;
+  position: inherit;
+  margin-top: 37%;
+  
+}
+
+
+
+
+.flip-menu {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flip-menu-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.3);
+  background-color: lightskyblue;
+}
+
+.flip-menu:hover .flip-menu-inner {
+  transform: rotateY(540deg);
+}
+
+.flip-menu-front,
+.flip-menu-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-menu-front {
+  background-color: lightgreen;
+  /* color: white; */
+}
+
+.flip-menu-back {
+  background-color: pink;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  position: relative;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+}
+
+div {
+  border-radius: 14px;
+}
